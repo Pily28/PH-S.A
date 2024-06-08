@@ -6,7 +6,7 @@ body {
 }
 header {
     background-color: #4CAF50;
-    color: white;
+    color: rgb(248, 248, 248);
     padding: 1rem;
     text-align: center;
 }
@@ -22,23 +22,22 @@ nav {
 nav a {
     float: left;
     display: block;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color: #ddd;
+    background-color: #4CAF50;
     color: black;
 }
 
-div .login a {
+div .icons-login a {
     display: flex;
     text-decoration: underline;
-    margin-left: 30px;
-
-    
+    margin-right: 20px;
+  
     }  
  .login a:hover {
         background-color: #45a049;
@@ -48,8 +47,10 @@ div .login a {
         -moz-transform: 1px;
         -ms-transform: 1px;
         -o-transform: 1px;
+        float: roght;
 }  
     
+
 /****Main *********************************************/
 main {
     padding: 20px;
@@ -118,7 +119,7 @@ footer {
     width: 100%;
     margin-bottom: 15px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid ;
     border-radius: 5px;
 }
 .log-container button {

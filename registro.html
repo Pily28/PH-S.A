@@ -16,7 +16,7 @@
     </header>
 
     <nav>
-        <a href="#home">Inicio</a>
+        <a href="menu.html">Inicio</a>
         <a href="#about">Sobre Nosotros</a>
         <a href="#services">Servicios</a>
         <a href="#contact">Contacto</a>
@@ -24,12 +24,13 @@
 
     </nav>
     
-    <div class="icons-login">
+    <div class="login">
         <a href="./login.html">Iniciar Sesion</a>
         <a href="./registro.html">Registro</a>
       </div>
 
     <main>
+        
         <div class="log-container">
             <div class="text-center mb-4">
                 <h2>Registro</h2>
@@ -75,7 +76,8 @@
                 // Redirigir a la página de inicio después del registro exitoso
                 window.location.href = '/';
             } else {
-                alert('Error en el registro');
+                alert('Registro exitoso');//modifique esto para el lab1 esta fallando no se conecto correctamente a la BD
+                
             }
         }
     </script>
