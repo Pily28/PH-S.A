@@ -5,14 +5,14 @@ body {
     box-sizing: border-box;
 }
 header {
-    background-color: #4CAF50;
+    background-color: #11447d;
     color: white;
     padding: 1rem;
     text-align: center;
 }
 
 nav {
-    background-color: #333;
+    background-color: #11657d;
     overflow: hidden;
     width: 100%;
     top: 60px; /* Debajo del header */
