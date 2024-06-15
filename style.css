@@ -41,7 +41,7 @@ div .login a {
     
     }  
  .login a:hover {
-        background-color: #45a049;
+        background-color: #11447d;
         color: black;
         transform: 1px;
         -webkit-transform: 1px;
@@ -61,7 +61,7 @@ div #col{
     max-width: 300px; 
     margin: 0 auto; 
     padding: 20px; 
-    background-color: #45a049; 
+    background-color: #11447d; 
     border: 1px solid #ccc; 
     border-radius: 5px; 
 
@@ -124,17 +124,123 @@ footer {
 .log-container button {
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #11447d;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 .log-container button:hover {
-    background-color: #45a049;
+    background-color: #11447d;
 }
 .form-text {
     font-size: 12px;
     color: #6c757d;
 }
 
+/************TiendaOnline************/
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #11447d;
+}
+
+.products, .cart {
+    margin-bottom: 20px;
+}
+
+.products h2, .cart h2 {
+    color: #11447d;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.product {
+    border: 1px solid #2e2828;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.product h3 {
+    color: #11447d;
+}
+
+.product p {
+    color: #666;
+}
+
+.product button {
+    background-color: #11447d;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.product button:hover {
+    background-color: #0e3765;
+}
+
+.cart-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cart-items li {
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+    color: #11447d;
+}
+
+#generate-order {
+    margin-top: 10px;
+    background-color: #11447d;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+
+#generate-order:hover {
+    background-color: #0e3765;
+}
+
+.order-summary {
+    margin-top: 20px;
+    color: #11447d;
+    text-align: center;
+}
