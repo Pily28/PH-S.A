@@ -41,7 +41,7 @@ div .login a {
     
     }  
  .login a:hover {
-        background-color: #45a049;
+        background-color: #11447d;
         color: black;
         transform: 1px;
         -webkit-transform: 1px;
@@ -61,7 +61,7 @@ div #col{
     max-width: 300px; 
     margin: 0 auto; 
     padding: 20px; 
-    background-color: #45a049; 
+    background-color: #11447d; 
     border: 1px solid #ccc; 
     border-radius: 5px; 
 
@@ -124,14 +124,14 @@ footer {
 .log-container button {
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #11447d;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 .log-container button:hover {
-    background-color: #45a049;
+    background-color: #11447d;
 }
 .form-text {
     font-size: 12px;
