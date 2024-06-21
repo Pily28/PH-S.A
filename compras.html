@@ -1,57 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Compras</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_Compras.css">
 </head>
 <body>
-     <div class="container">
-        <header>
-            <h1>Tienda Online</h1>
-        </header>
-        <main>
-            <section class="products">
-                <h2>Productos</h2>
-                <div class="product-list">
-                    <!-- Productos serán añadidos dinámicamente aquí -->
-                </div>
-            </section>
-            <section class="cart">
-                <h2>Carrito de Compras</h2>
-                <ul class="cart-items">
-                    <!-- Items del carrito serán añadidos dinámicamente aquí -->
-                </ul>
-                <button id="generate-order">Generar Orden de Compra</button>
-                <div class="order-summary">
-                    <!-- Resumen de la orden será añadido aquí -->
-                </div>
-            </section>
-        </main>
-    </div>
-    <script src="script.js"></script>
     <header>
-        <h1>Compras Online</h1>
+        <h1>Página de Compras</h1>
     </header>
     <main>
-        <section class="products">
+        <section id="product-list">
             <h2>Productos</h2>
-            <div class="product-list">
-                <!-- Productos serán añadidos dinámicamente aquí -->
+            <div class="product" data-id="1" data-name="Producto 1" data-price="100">
+                <h3>Producto 1</h3>
+                <img src="images/product1.jpg" alt="Producto 1">
+                <p>Precio:  ₡ 100</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
             </div>
+            <div class="product" data-id="2" data-name="Producto 2" data-price="200">
+                <h3>Producto 2</h3>
+                <img src="images/product2.jpg" alt="Producto 2">
+                <p>Precio:  ₡200</p>
+                <button class="add-to-cart">Añadir al Carrito</button>
+            </div>
+            <!-- Añade más productos según sea necesario -->
         </section>
-        <section class="cart">
+        <section id="cart">
             <h2>Carrito de Compras</h2>
-            <ul class="cart-items">
-                <!-- Items del carrito serán añadidos dinámicamente aquí -->
-            </ul>
-            <button id="generate-order">Generar Orden de Compra</button>
-            <div class="order-summary">
-                <!-- Resumen de la orden será añadido aquí -->
-            </div>
+            <ul id="cart-items"></ul>
+            <p>Total:  ₡ <span id="total">0</span></p>
+            <button id="checkout">Generar Orden de Compra</button>
         </section>
     </main>
     <script src="compras.js"></script>
 </body>
 </html>
+
