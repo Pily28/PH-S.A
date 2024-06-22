@@ -14,21 +14,6 @@
     <header>
         <h1>Bienvenido a PH S.A</h1>
     </header>
-
-    <nav>
-        <a href="#home">Inicio</a>
-        <a href="#about">Sobre Nosotros</a>
-        <a href="#services">Servicios</a>
-        <a href="#contact">Contacto</a>
-
-
-    </nav>
-    
-    <div class="icons-login">
-        <a href="./login.html">Iniciar Sesion</a>
-        <a href="./registro.html">Registro</a>
-      </div>
-
     <main>
         <div class="log-container">
             <div class="text-center mb-4">
@@ -36,17 +21,50 @@
                 <label for="username" class="form-label">Nombre de usuario</label>
                 <input type="text" class="form-control" id="username" placeholder="Nombre de usuario">
             </div>
+         
 
+            <div class="text-center mb-4">
+                <label for="cedula" class="fo.0.rm-label">Cedula</label>
+                <input type="text" class="form-control" id="cedula" placeholder="1-######">
+            </div>
+        
             <div class="text-center mb-4">
                 <label for="email" class="form-label">Correo Electrónico</label>
                 <input type="email" class="form-control" id="email" placeholder="name@example.com">
             </div>
 
-            <label for="password" class="form-label">Contraseña</label>
-            <input type="password" id="password" class="form-control">
-            <div class="form-text">
-                Tu contraseña debe tener entre 8 y 20 caracteres, contener letras y números, y no debe contener espacios, caracteres especiales ni emojis.
+
+            <div class="text-center mb-4">
+                <label for="cedula" class="fo.0.rm-label">Telefono</label>
+                <input type="text" class="form-control" id="cedula" placeholder="1-230-0000">
             </div>
+            
+
+            <div class="text-center mb-4">
+                <label for="cedula" class="fo.0.rm-label">Edad</label>
+                <input type="number" class="form-control" id="cedula" placeholder="">
+            </div>
+            
+
+            <div class="text-center mb-4">
+                <label for="cedula" class="fo.0.rm-label">Lugar de residencia</label>
+                <input type="text" class="form-control" id="cedula" placeholder="">
+            </div>
+
+
+            <div class="text-center mb-4">
+                <label for="sex" class="selct-label">Sexo</label>
+                <select class="form-select form-select-lg" aria-label="select">
+                    <option selected>Select</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+               
+                </select>
+            </div>
+            
+            
+
+            
 
             <button type="button" class="btn btn-primary mt-3" onclick="register()">Registrar</button>
         </div>

@@ -3,13 +3,18 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-image: url("./img/fondo.jpg");
+    background-size: cover;
+
+
 }
 header {
-    background-color: #11447d;
-    color: white;
+    background-color: #F8F8FF;
+    color: darkblue;
     padding: 1rem;
     text-align: center;
 }
+
 
 nav {
     background-color: #11657d;
@@ -18,7 +23,6 @@ nav {
     top: 60px; /* Debajo del header */
     z-index: 1000;
 }
-
 nav a {
     float: left;
     display: block;
@@ -32,6 +36,7 @@ nav a:hover {
     background-color: #ddd;
     color: black;
 }
+
 
 div .login a {
     display: flex;
@@ -104,12 +109,15 @@ footer {
 
 
 .log-container {
-    width: 400px;
-    padding: 20px;
+    width: 500px;
+    padding: 50px;
+    margin: 30px 40px  0px 900px;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+
 }
 .log-container label {
     font-weight: bold;
@@ -129,6 +137,10 @@ footer {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 .log-container button:hover {
     background-color: #11447d;
